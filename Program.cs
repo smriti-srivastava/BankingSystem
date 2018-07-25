@@ -88,7 +88,7 @@ namespace BankingSystem
                 }
                 else
                 {
-                    Console.WriteLine("Invalid Account Details, Enter A valid Account Detail or Press 5 to exit!");
+                    Console.WriteLine("Invalid Account ID, Press 5 to exit or Anything else to Continue!");
                     choice = Convert.ToInt32(Console.ReadLine());
                 }
                 if (choice == 5)
